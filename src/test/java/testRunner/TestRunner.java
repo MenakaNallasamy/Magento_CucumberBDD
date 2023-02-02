@@ -23,8 +23,8 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome=true, //removing unnecessory r junk character in console window 
 		//tags="@sanity"  //scenarios tagged with @sanity
 		// tags="@regression"  //scenarios tagged with @regression
-		tags="@sanity and @regression"  //scenarios tagged with both @sanity @regression
-	    //tags="@sanity or @regression"  //scenarios tagged with either @sanity or @regression
+		//tags="@sanity and @regression"  //scenarios tagged with both @sanity @regression
+	    tags="@sanity or @regression"  //scenarios tagged with either @sanity or @regression
 		//tags="@sanity and not regression", //scenarios tagged with @sanity but not @reggresion 
 		
 		)

@@ -89,15 +89,14 @@ public class Steps {
 	   
 	}
 	
-	@When("click on Signin")
+	@When("Click on Signin")
 	public void click_on_signin() {
-
 		hp=new HomePage(driver);
 		hp.clickSignIn();
-		log.info("Clicked on Signin");	   
+	    log.info("Clicked on Signin link");
 	}
-
-	@When("User enters Email as {string} and Password as {string}")
+	
+    @When("User enters Email as {string} and Password as {string}")
 	public void user_enters_email_as_and_password_as(String email, String pswd) {
 	
 		sp=new SigninPage(driver);

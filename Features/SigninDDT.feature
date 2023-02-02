@@ -1,6 +1,6 @@
 Feature: Signin Data Driven
 
-@regression
+  @regression
   Scenario Outline: Signin Data Driven
     Given User Launch browser
     And opens URL "https://magento.softwaretestingboard.com/"
@@ -12,4 +12,4 @@ Feature: Signin Data Driven
     Examples: 
       | email               | password     |
       | nickp3833@gmail.com | testdemo@146 |
-      | gunameenu@gmail.com | testdemo@146 |
+      | gmena@gmail.com  | testdemo@146 |
